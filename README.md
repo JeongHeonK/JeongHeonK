@@ -1,38 +1,27 @@
-<div style={{display: flex; }}>
-<img src="https://img.shields.io/badge/kdrlawjdgjs@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/>
-</div>
-<br />
-FE 개발자입니다.<br />
-아는 만큼, 공부한 만큼, 좋은 코드가 나온다고 생각합니다.<br />
-<br />
-근데 그것보다 그냥 가독성 좋은 코드가 좋은 거라 생각합니다.
+## 김정헌
 
+Frontend Developer
 
-### 💻Skills
+### 💼 경력
 
-<div style={{display: flex; width: 150px; flex-wrap: wrap; }}>
-<img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white" />
-<img src="https://img.shields.io/badge/React Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" />
-<img src="https://img.shields.io/badge/React Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
-<img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-</div>
+- 2025.03 ~ 현재 | SNUAILAB 연구원
+- 2024.08 ~ 2024.11 | 또박또박 RN
 
-### 💅Style
+### 🚀 Project
 
-<div style={{display: flex; width: 150px; flex-wrap: wrap; }}>
-<img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styledcomponents&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white"/>
-</div>
+- **배터리 셀 X-ray 어노테이션 플랫폼**
 
-### 🧪Test
+  - Konva.js 레이어 분리 아키텍처로 Canvas 렌더링 60fps 달성
+  - Zustand + Immer 기반 8개 독립 스토어로 리렌더링 최적화
+  - Socket.IO 기반 모델 학습/추론 진행률 실시간 표시
 
-<div style={{display: flex; width: 150px; flex-wrap: wrap; }}>
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
-<img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" />
-<img src="https://img.shields.io/badge/Cypress-69D3A7?style=flat-square&logo=cypress&logoColor=white"/>
-</div>
+- **X-ray 이미지 검사 및 분석 도구**
+
+  - GeoTIFF 형식 산업용 이미지 Canvas 렌더링 지원
+  - OpenCV.js 동적 로딩으로 초기 번들 사이즈 최적화
+  - MAX_MESSAGES 제한으로 실시간 메시지 메모리 누수 방지
+
+- **소프트웨어 라이선스 관리 시스템**
+  - TanStack Router 파일 기반 라우팅으로 100% 타입 안전성 확보
+  - MSW 기반 API Mocking으로 백엔드 독립 개발 환경 구축
+  - React Hook Form + Zod 기반 다단계 폼 검증
