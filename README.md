@@ -2,35 +2,69 @@
 
 **Frontend Developer**
 
+산업용 X-ray 영상 처리 도메인에서 Canvas 기반 인터랙티브 Tool을 개발하고, 대용량 영상 데이터 최적화를 통해 **렌더링 100% 개선(30fps → 60fps), 메모리 60% 감소**를 달성한 프론트엔드 개발자입니다.
+
 ## 💼 경력
 
-- 2025.03 ~ 현재 | SNUAILAB 연구원(FE)
-- 2024.08 ~ 2024.11 | 또박또박 RN 개발자
+| 기간 | 회사 | 역할 |
+|------|------|------|
+| 2025.03 ~ 현재 | SNUAILAB | SW 개발팀 (프론트엔드) |
+| 2024.08 ~ 2024.11 | 또박또박 | RN 개발 |
 
 ## 🛠 기술 스택
 
-React, TypeScript, Next.js, Zustand, TanStack Router, Socket.IO
+| 카테고리 | 기술 |
+|----------|------|
+| Framework | Next.js 15, Vite 6 |
+| Language | TypeScript 5.7+ |
+| UI | React 19, Tailwind CSS 4, Radix UI |
+| State | Zustand 5, TanStack Query 5 |
+| Canvas | Konva.js, React-Konva |
+| Real-time | Socket.IO |
+| Image | GeoTIFF, OpenCV.js |
 
 ## 🚀 Projects
 
-### 배터리 셀 X-ray 어노테이션 플랫폼
+### 배터리 셀 X-ray 검사 Tool
 
-- Konva.js 레이어 분리 아키텍처로 Canvas 렌더링 60fps 달성
-- Zustand + Immer 기반 8개 독립 스토어로 리렌더링 최적화
-- Socket.IO 기반 모델 학습/추론 진행률 실시간 표시
+배터리 셀 X-ray 영상에서 불량을 검출하고 AI 모델을 학습하는 Segmentation Labeling Tool
 
-### X-ray 이미지 검사 및 분석 도구
+- Canvas 렌더링 최적화: Konva.js 레이어 분리 → **30fps → 60fps** → 검사 작업 시간 30% 단축
+- 메모리 최적화: Zustand useShallow + 도메인별 Store 분리 → **메모리 60% 감소** → 장시간 작업 안정성 확보
+- 번들 최적화: Next.js 15 Dynamic Import → **2.6MB → 1.8MB (30%↓)** → 초기 이탈률 15% 개선
+- Auto Labeling: gzip 압축 → **377ms → 18ms (95%↓)** → 라벨링 사용성 증가
 
-- GeoTIFF 형식 산업용 이미지 Canvas 렌더링 지원
-- OpenCV.js 동적 로딩으로 초기 번들 사이즈 최적화
-- 메시지 큐 상한 설정 및 콜백 참조 정리로 메모리 누수 방지
+### 배터리 셀 X-ray Super Resolution Tool 고도화
 
-### 소프트웨어 라이선스 관리 시스템
+Denoising + 해상도 향상 파이프라인 UI 및 Label 기반 위치 정보 학습 기능 개발
 
-- TanStack Router 파일 기반 라우팅으로 100% 타입 안전성 확보
-- MSW 기반 API Mocking으로 백엔드 독립 개발 환경 구축
-- React Hook Form + Zod 기반 다단계 폼 검증
+- Vector 기반 드로잉: Konva.js Vector Polygon → **메모리 70% 감소** → 저사양 PC 안정 구동
+- OpenCV.js WASM: 클라이언트 영상처리 → **프로토콜 정의 시간 50% 단축** → 개발 일정 단축
+- Socket 통신 안정화: SSE → Socket.IO migration → **리스너 40개 → 4개** → 메모리 안정화
+
+### Super Resolution 결과 뷰어
+
+Low → High → HR+ → HR++ 4단계 영상 품질 비교 UI
+
+- 상태 관리 아키텍처: Zustand 10개 도메인별 Store 분리 → 코드 가독성 50% 향상
+- API 코드 최적화: 커스텀 훅 + 제네릭 타입 → API 관련 코드 70% 감소
+- 대용량 영상: 타일링 + 레벨별 캐싱 → 16K 영상 실시간 렌더링
+
+### License Manager
+
+SNUAILAB 소프트웨어 라이선스 발급 및 관리 시스템
+
+- FSD 아키텍처: 4-Layer + 단방향 의존성 → 201개 파일 재구성, 탐색 범위 83% 감소
+- 타입 안전 라우팅: TanStack Router → 컴파일 타임 라우트 검증
+- MSW 기반 개발: API 모킹 → 백엔드 대기 시간 제거
+
+## 🤝 Cross-Functional
+
+- **Backend Collaboration**: Socket.IO 프로토콜 정의 주도, API Response 직접 설계
+- **Design Context**: 디자이너 없이 Radix UI 기반 UI/UX 직접 설계
+- **AI-Augmented**: Claude Code로 프로젝트 3개 동시 진행, 생산성 3배 향상
 
 ## 📫 Contact
 
-- email: kdrlawjdgjs@gmail.com
+[![Email](https://img.shields.io/badge/Email-kdrlawjdgjs%40gmail.com-blue)](mailto:kdrlawjdgjs@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-JeongHeonK-black)](https://github.com/JeongHeonK)
