@@ -49,6 +49,7 @@ Low → High → HR+ → HR++ 4단계 영상 품질 비교 UI
 - 상태 관리 아키텍처: Zustand 10개 도메인별 Store 분리 → 코드 가독성 50% 향상
 - API 코드 최적화: 커스텀 훅 + 제네릭 타입 → API 관련 코드 70% 감소
 - 대용량 영상: 타일링 + 레벨별 캐싱 → 16K 영상 실시간 렌더링
+- E2E 테스트 인프라: Playwright + Page Object Model → **84개 테스트 작성** → QA 프로세스 효율화
 - 이미지 목록 가상화: TanStack Virtual + 스크롤바 UX 개선 + 파일명 토글/접근성 → **DOM 88% 감소** → 검사 작업 사용성 개선
 
 ### License Manager
@@ -56,8 +57,16 @@ Low → High → HR+ → HR++ 4단계 영상 품질 비교 UI
 SNUAILAB 소프트웨어 라이선스 발급 및 관리 시스템
 
 - FSD 아키텍처: 4-Layer + 단방향 의존성 → 201개 파일 재구성, 탐색 범위 83% 감소
+- 대용량 테이블 가상화: TanStack Virtual → **1,000ms → 30ms (97%↓)** → 데이터 크기 무관 일정한 성능
 - 타입 안전 라우팅: TanStack Router → 컴파일 타임 라우트 검증
 - MSW 기반 개발: API 모킹 → 백엔드 대기 시간 제거
+
+### 또박또박 - 한국어 발음 교정 앱
+
+한국어 발음 교정 앱의 호흡 훈련 탭 개발
+
+- Layout 초기화: useLayoutEffect + cleanup → 초기 로드 안정화
+- 다중 애니메이션 동기화: Moti 선언적 애니메이션 + setTimeout cleanup → 4단계 호흡 시퀀스 안정적 구현
 
 ## 🤝 Cross-Functional
 
