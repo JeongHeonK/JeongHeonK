@@ -49,6 +49,9 @@ Suspense "무한 Promise throw" 패턴으로 DOM 커밋 차단 · **0.88KB** gzi
 
 ## Side Project
 
+**[PixelForge](https://github.com/JeongHeonK/canvas-demo)** · Canvas 최적화 기술 데모 (X-ray 라벨링 툴 핵심 기술 공개 증명)
+3-Layer 분리 60fps · XOR+RLE 메모리 90%+절감 · Web Worker Flood Fill · 115 tests · [Live Demo](https://jeongheonk.github.io/canvas-demo/)
+
 **[Trade Log](https://github.com/JeongHeonK/trade-log)** · CRDT 기반 Offline-First 매매일지
 Yjs + Dexie 이중 계층 아키텍처 · PWA · 서버비용 $0
 
