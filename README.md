@@ -42,7 +42,7 @@
 ## Open Source
 
 **[freeze](https://github.com/JeongHeonK/freeze)** · React exit animation 깜빡임 제거 라이브러리
-Suspense "무한 Promise throw" 패턴으로 DOM 커밋 차단 · **0.95KB** gzip · 22개 테스트 100% 커버리지
+Suspense "무한 Promise throw" 패턴으로 DOM 커밋 차단 · **0.88KB** gzip · 22개 테스트 (Lines 100%, Branch 84%)
 
 **[Claude Code C# Plugin](https://github.com/JeongHeonK/c-sharp-custom-marketplace)** · 사내 C#/.NET팀 온보딩용 마켓플레이스 플러그인
 7개 스킬 (Code Review·TDD·MVVM Generator 등) + 12개 Modern C# 규칙 · v1.8.0
