@@ -7,10 +7,10 @@
 
 ## Tech
 
-**Core** · Next.js · React · TypeScript
-**State** · Zustand · TanStack Query/Router/Table
-**Visualization** · Konva.js · GeoTIFF · OpenCV.js (WASM)
-**Real-time** · Socket.IO
+- **Core** · Next.js · React · TypeScript
+- **State** · Zustand · TanStack Query/Router/Table
+- **Visualization** · Konva.js · GeoTIFF · OpenCV.js (WASM)
+- **Real-time** · Socket.IO
 
 ## Work
 
