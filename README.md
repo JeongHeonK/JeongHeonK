@@ -1,5 +1,5 @@
 # 김정헌
-**Frontend Engineer · Interactive Systems**
+**Software Engineer · Interactive Systems**
 
 대용량 데이터 + 실시간 UI 환경에서
 병목을 측정하고, 구조적으로 분리하고, 수치로 개선하는 것을 선호합니다.
@@ -20,7 +20,7 @@ Socket.IO
 
 ## Experience
 
-### **Alicorn** · Frontend Engineer
+### **Alicorn** · Software Engineer
 2026.04 – Present
 
 ### **SNUAILAB** · SW Developer
